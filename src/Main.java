@@ -68,7 +68,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Simple Calculator - Version V0.1");
+        System.out.println("Simple Calculator - Version V0.1.1");
         System.out.print("Please Enter The Calculation Type: ");
         char type = sc.next().charAt(0);
         System.out.print("Please Enter The First Number: ");

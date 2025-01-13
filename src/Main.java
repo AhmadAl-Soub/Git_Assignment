@@ -40,14 +40,30 @@ public class Main {
         System.out.println("number1 % number2 = " + r);
 
     }
-    public static void divie(double a, double b){
+    public static void module(double a, double b){
         double r = a % b;
         System.out.println("number1 % number2 = " + r);
 
     }
     //Junior Developer
     //Build The Addition Function here
+    public static void add(int a, int b){
+        int r = a + b;
+        System.out.println("number1 add number2 = " + r);
+    }
+    public static void add(double a, double b){
+        double r = a + b;
+        System.out.println("number1 add number2 = " + r);
+    }
     //Build The Subtraction Function here
+    public static void sub(int a, int b){
+        int r = a - b;
+        System.out.println("number1 sub number2 = " + r);
+    }
+    public static void sub(double a, double b){
+        double r = a - b;
+        System.out.println("number1 sub number2 = " + r);
+    }
 
     public static void main(String[] args) {
 
